@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('imgs/simple-islamic-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgba(74, 114, 146, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#main_title {
+    color:white;
+}
+
+#ZakahForm {
+    margin-top: 20px;
+}
+
+label {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#62735f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(17, 58, 44);
+}
+
+#result {
+    margin-top: 20px;
+    color: white;
+}
